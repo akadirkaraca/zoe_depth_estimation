@@ -46,7 +46,7 @@ To deploy this project run
 
 ```bash
   docker build -t depth_estimation .
-  docker run -d -t 8041:8041 depth_estimation
+  docker run -d -p 8041:8041 depth_estimation
 ```
 
 
